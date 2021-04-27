@@ -1,0 +1,60 @@
+/*@media only screen and (max-width: 1024px) {*/
+/*    header h1 {*/
+/*        font-size: 300%;*/
+/*        text-align: center;*/
+/*        position: initial;*/
+/*        padding: 0 4%;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-content: center;*/
+/*        flex-direction: column;*/
+/*        height: 100%;*/
+/*    }*/
+
+
+/*    .main-nav {*/
+/*        display: none;*/
+/*    }*/
+
+/*                                                            !*  HAMBURGER   *!*/
+
+/*    .hamburger {*/
+/*        display: flex;*/
+/*        justify-content: flex-end;*/
+/*        align-self: center;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .hamburger-icons {*/
+/*        margin-right: 20px;*/
+/*    }*/
+
+
+/*    .hamburger-menu {*/
+/*        margin-right: 120px;*/
+/*    }*/
+
+/*                                                            !*     END OF HAMBURGER    *!*/
+
+/*    img[alt="NoteBook Keyboard"] {*/
+/*        display: none;*/
+/*    }*/
+
+/*    img[alt="Jane Doe photo"] {*/
+/*        position: initial;*/
+/*        height: 300px;*/
+/*        width: 275px;*/
+/*    }*/
+
+/*    .about-text p {*/
+/*        font-size: 150%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*}*/
+
+/*@media only screen and (max-width: 320px) {*/
+/*    .about-images {*/
+/*        display: none;*/
+/*    }*/
+/*}*/

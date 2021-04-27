@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<!--    <link rel="stylesheet" type="text/css" href="queries.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="nav-menu">
+                <div class="hamburger">
+                    <div class="hamburger-menu">
+                        <a href="#about">About me</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contacts">Contacts</a>
+                        <a href="#home">Home</a>
+                    </div>
+                    <div class="hamburger-icons">
+                        <a class="mobile-burger-icon js-burger-menu"><img src="site/Hamburger_icon.svg.png" alt="Hamburger icon"></a>
+                        <a class="mobile-close-icon js-burger-menu-close"><img src="site/OOjs_UI_icon_close.svg.png" alt="Close icon"></a>
+                    </div>
+                </div>
+                <div class="main-nav js-main-nav">
+                    <a href="#about">About me</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contacts">Contacts</a>
+                    <a href="#home">Home</a>
+                </div>
+            </div>
+        </nav>
+        <h1>Jane Doe,<br> <span class="front-color">Front-end_developer</span></h1>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-images">
+                <div class="about-images-layer1">
+                    <img src="site/image.jpg" alt="NoteBook Keyboard">
+                    <div class="about-images-layer2">
+                        <img src="site/pep.jpg" alt="Jane Doe photo">
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br>
+                    Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+                    Donec quam felis, ultricies nec,
+                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                    vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    mollis pretium.<br>
+                    <b>Skills:</b> HTML, CSS, JS, React.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="window window-hide">
+            <div class="window-popup window-hide js-popup" data-name="flashcards">
+                <h3>Flashcards</h3>
+                <p>You can see the project at the following link:<a href="#">flashcards.</a><br>
+                    <br>
+                    I did this project when I was studying the frontend on Hyperskill. I created a web page with
+                    flip-down flash cards, learned some HTML basics and learned that CSS can easily make a beautiful
+                    design.
+                </p>
+                <button class="close-window js-btn" data-name="flashcards">Close</button>
+            </div>
+            <div class="window-popup window-hide js-popup" data-name="piano">
+                <h3>Virtual Piano</h3>
+                <p>You can see the project at the following link:<a href="#">flashcards.</a><br>
+                    <br>
+                    I did this project when I was studying the frontend on Hyperskill. I created a web page with
+                    flip-down flash cards, learned some HTML basics and learned that CSS can easily make a beautiful
+                    design.
+                </p>
+                <button class="close-window js-btn" data-name="piano">Close</button>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="project-1">
+                <img src="site/project1.png" alt="Flashcards project">
+                <p>Flashcards</p>
+                <button class="open-window js-btn" data-name="flashcards">Open</button>
+            </div>
+            <div class="project-2">
+                <img src="site/project2.png" alt="Virtual Piano project">
+                <p>Virtual Piano</p>
+                <button class="open-window js-btn" data-name="piano">Open</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>You can contact me at <a href="mailto:test@test.test">test@test.test</a>
+            <br>
+            or phone number &mdash; <a href="tel:12345678910">12345678910</a>
+        </p>
+        <div class="social-links">
+            <a href="#"><img class="github-icon" src="site/github.svg" alt="Github icon"></a>
+            <a href="#"><img class="github-icon" src="site/facebook.svg" alt="Facebook icon"></a>
+            <a href="#"><img class="github-icon" src="site/twitter.svg" alt="Twitter icon"></a>
+            <a href="#"><img class="github-icon" src="site/instagram%201.svg" alt="Instagram icon"></a>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Jane Doe</h2>
+        <p>2021</p>
+    </footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
